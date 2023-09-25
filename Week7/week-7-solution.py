@@ -56,7 +56,7 @@ df
 # ### 6. Add 2 row after 3rd row.
 
 header=['Product No', 'Product Name', 'January', 'February', 'March', 'April', 'May', 'June','Total Sell','Average Sell']
-df.loc[2.5] = [5,"erte",46,352,45,46,657,567]
+df.loc[2.5] = [5,"erte",46,352,45,46,657,567,879,77898]
 df = df.sort_index().reset_index(drop=True)
 df.loc[3.5] = [6, 'moniter',1140,1148,2260,2245,2256,2221,11270,1878.333333]
 df = df.sort_index().reset_index(drop=True)
